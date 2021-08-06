@@ -4,6 +4,9 @@ import Note from './components/Note'
 import noteService from './services/notes'
 import Notification from './components/Notification'
 
+const cors = require('cors')
+app.request(cors())
+
 const Footer = () => {
     const footerStyle = {
         color: 'green',
