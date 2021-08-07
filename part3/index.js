@@ -3,6 +3,7 @@ const cors = require('cors')
 
 const app = express()
 
+app.use(express.static('build'))
 app.use(cors())
 app.use(express.json())
 
@@ -82,7 +83,7 @@ app.post('/api/notes', (request, response) => {
 
     notes = notes.concat(note)
 
-    response.json(notes)
+    response.json(note)
 })
 
 app.delete('/api/notes/:id', (request, response) => {
