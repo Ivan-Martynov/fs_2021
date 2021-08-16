@@ -1,0 +1,26 @@
+
+PUT  http://localhost:3001/api/persons/6115f5b9555c7a1b658e9c5b
+Content-Type: application/json
+
+{
+    "name": "James Barry",
+    "number": "040-532"
+}
+
+###
+PUT  http://localhost:3001/api/persons/6115f5b9555c7a1b658e9c5
+Content-Type: application/json
+
+{
+    "name": "James Barry",
+    "number": "040-532"
+}
+
+###
+PUT  http://localhost:3001/api/persons/6115f5b9555c7a1b658e9c5b
+Content-Type: application/json
+
+{
+    "name": "J B",
+    "number": "040-532"
+}

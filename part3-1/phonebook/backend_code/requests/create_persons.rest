@@ -1,0 +1,52 @@
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "James Barry",
+    "number": "040-987654321"
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "James Barry",
+    "number": "040-987654321"
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Arto Hellas",
+    "number": "040-123456"
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Arto Hellas",
+    "number": "040-111111"
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "London",
+    "number": ""
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "",
+    "number": ""
+}
